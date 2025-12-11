@@ -4,7 +4,7 @@ schema_version: 1
 context:
   name: "gibr"
   python_min: '3.11'
-  version: "0.10.1"
+  version: "0.10.2"
 
 package:
   name: ${{ name|lower }}
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/gibr-${{ version }}.tar.gz
-  sha256: b5fa99737b725a3e64558424f92159b0935479407b692a35aefbbbeffa80c526
+  sha256: 2f278040f5fc8c3e48ea78bb8f9ddb3c6ab86106864afc82bb8b9f12849bbb7f
 
 build:
   number: 0
